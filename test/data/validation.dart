@@ -1,7 +1,6 @@
 import 'package:postcode/postcode.dart';
 
-class Validation {
-  static final POSTCODES_VALIDATION = '''[
+final POSTCODES_VALIDATION = '''[
                                 {
                                   "base" : "L27 8XY",
                                   "expected" : true
@@ -56,7 +55,7 @@ class Validation {
                                 }
                               ]''';
 
-  static final SANITIZE_VALIDATION = '''[
+final SANITIZE_VALIDATION = '''[
                                 {
                                   "base" : "L27 8XY",
                                   "expected" : "L278XY"
@@ -86,4 +85,3 @@ class Validation {
                                   "expected" : "12FSSD"
                                 }
                               ]''';
-}
