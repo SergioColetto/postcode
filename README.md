@@ -1,7 +1,19 @@
 # postcode
 
-Utility methods for UK Postcodes, including validating the shape of a postcode
+> Validate & parse UK postcodes
 
-## Getting Started
+### Validate
 
-```isValid("AA1 1AB"); // => true```
+```dart
+import 'package:postcode/postcode.dart';
+
+isValid("AA1 1AB")); // => true
+```
+
+### TODO: Parse
+Pass a string to `parse`. This will return a valid or invalid postcode instance which can be easily destructured.
+
+
+## License
+
+MIT
