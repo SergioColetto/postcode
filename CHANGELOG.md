@@ -1,4 +1,4 @@
-## [0.0.2] - Sanitize the Postcode Object, remove space.
+## [0.0.3] - Sanitize the Postcode Object, remove space.
 
 * Ajust pattern
 
