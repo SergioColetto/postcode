@@ -1,6 +1,6 @@
 import 'package:postcode/postcode.dart';
 
-final POSTCODES_VALIDATION = '''[
+final postcodeJson = '''[
                                 {
                                   "base" : "L27 8XY",
                                   "expected" : true
@@ -55,7 +55,7 @@ final POSTCODES_VALIDATION = '''[
                                 }
                               ]''';
 
-final SANITIZE_VALIDATION = '''[
+final sanitizeJson = '''[
                                 {
                                   "base" : "L27 8XY",
                                   "expected" : "L278XY"

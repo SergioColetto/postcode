@@ -7,16 +7,16 @@ import 'dart:convert';
 
 void main() {
   test('adds postcode and return if postcode valid true or false', () {
-    final data = json.decode(POSTCODES_VALIDATION);
+    final data = json.decode(postcodeJson);
 
-    data.forEach((sample) =>
-        expect(isValid(sample['base']), sample['expected']));
+    data.forEach(
+        (sample) => expect(isValid(sample['base']), sample['expected']));
   });
 
   test('add string with space and return string without space', () {
-    final data = json.decode(SANITIZE_VALIDATION);
+    final data = json.decode(sanitizeJson);
 
-    data.forEach((sample) =>
-        expect( sanitize(sample['base']), sample['expected'] ));
+    data.forEach(
+        (sample) => expect(sanitize(sample['base']), sample['expected']));
   });
 }

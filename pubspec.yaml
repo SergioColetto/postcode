@@ -1,5 +1,5 @@
 name: postcode
-description: Validate & parse UK postcodes.
+description: Validate & parse UK postcodes, to assist in the development and creation of new functionality.
 version: 0.0.2
 homepage: https://github.com/SergioColetto
 
